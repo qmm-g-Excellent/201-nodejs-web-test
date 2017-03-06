@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/qmm/.nvm/versions/node/v6.7.0/bin/node',
+1 verbose cli   '/home/qmm/.nvm/versions/node/v6.7.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'babel-node',
+1 verbose cli   'app.js' ]
+2 info using npm@3.10.3
+3 info using node@v6.7.0
+4 verbose run-script [ 'prebabel-node', 'babel-node', 'postbabel-node' ]
+5 info lifecycle mongoose01@1.0.0~prebabel-node: mongoose01@1.0.0
+6 silly lifecycle mongoose01@1.0.0~prebabel-node: no script for prebabel-node, continuing
+7 info lifecycle mongoose01@1.0.0~babel-node: mongoose01@1.0.0
+8 verbose lifecycle mongoose01@1.0.0~babel-node: unsafe-perm in lifecycle true
+9 verbose lifecycle mongoose01@1.0.0~babel-node: PATH: /home/qmm/.nvm/versions/node/v6.7.0/lib/node_modules/npm/bin/node-gyp-bin:/home/qmm/internship-TW/201-nodejs-web-test/node_modules/.bin:/home/qmm/.nvm/versions/node/v6.7.0/bin:/home/qmm/.nvm/versions/node/v6.7.0/lib/node_modules/npm/bin/node-gyp-bin:/home/qmm/internship-TW/201-nodejs-web-test/node_modules/.bin:/home/qmm/.nvm/versions/node/v6.7.0/bin:/home/qmm/.nvm/versions/node/v6.7.0/bin:/home/qmm/.sdkman/candidates/gradle/current/bin:/home/qmm/bin:/home/qmm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+10 verbose lifecycle mongoose01@1.0.0~babel-node: CWD: /home/qmm/internship-TW/201-nodejs-web-test
+11 silly lifecycle mongoose01@1.0.0~babel-node: Args: [ '-c', 'babel-node "app.js"' ]
+12 silly lifecycle mongoose01@1.0.0~babel-node: Returned: code: 1  signal: null
+13 info lifecycle mongoose01@1.0.0~babel-node: Failed to exec babel-node script
+14 verbose stack Error: mongoose01@1.0.0 babel-node: `babel-node "app.js"`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/home/qmm/.nvm/versions/node/v6.7.0/lib/node_modules/npm/lib/utils/lifecycle.js:242:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/home/qmm/.nvm/versions/node/v6.7.0/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid mongoose01@1.0.0
+16 verbose cwd /home/qmm/internship-TW/201-nodejs-web-test
+17 error Linux 4.4.0-64-generic
+18 error argv "/home/qmm/.nvm/versions/node/v6.7.0/bin/node" "/home/qmm/.nvm/versions/node/v6.7.0/bin/npm" "run" "babel-node" "app.js"
+19 error node v6.7.0
+20 error npm  v3.10.3
+21 error code ELIFECYCLE
+22 error mongoose01@1.0.0 babel-node: `babel-node "app.js"`
+22 error Exit status 1
+23 error Failed at the mongoose01@1.0.0 babel-node script 'babel-node "app.js"'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the mongoose01 package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     babel-node "app.js"
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs mongoose01
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls mongoose01
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
